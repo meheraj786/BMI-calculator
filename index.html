@@ -12,22 +12,20 @@
 <body>
   <div id="main">
     <div class="top">
-      <div class="heading">
         <h1>BMI Calculator</h1>
-      </div>
       <div class="mode">
-        <button>US</button>
-        <button>Metric</button>
+        <button class="active">US</button>
+        <button class="">Metric</button>
       </div>
     </div>
     <div class="input">
       <label for="weight">Enter Your Weight</label>
-      <input class="weight" type="number">
+      <input class="weight" type="number" placeholder="Pounds">
       <label for="height">Enter Your Height</label>
       <div class="height">
-        <input type="number" class="feet">
-        <input type="number" class="inch">
-        <input type="number" class="cm">
+        <input type="number" class="feet" placeholder="Feet">
+        <input type="number" class="inch" placeholder="Inch">
+        <input type="number" class="cm" placeholder="cm">
       </div>
       <button class="submit" onclick="calculate()">Submit</button>
     </div>
