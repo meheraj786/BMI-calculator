@@ -202,7 +202,7 @@ p , label, button{
   left: 0;
   background: #d0fbff71;
   border: 2px solid red;
-  width: 30%;
+  width: 27%;
   height: 100%;
 }
 #main .result .bmi ul{
@@ -225,6 +225,16 @@ p , label, button{
 #main hr:first-child{
   margin: 40px 0;
   
+}
+.tipsText{
+  max-width: 500px;
+}
+.tips ul{
+  margin-top: 20px;
+}
+.tips ul li{
+  margin: 10px 0;
+  font-size: 18px;
 }
 
 
