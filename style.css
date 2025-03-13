@@ -238,6 +238,33 @@ p , label, button{
 }
 
 
+@media(max-width: 600px){
+  body{
+    width: 100vw;
+  }
+  #main{
+    width: 100%;
+  }
+  #main input{
+    width: 100%;
+  }
+  #main .submit{
+    margin-top: 10px;
+  }
+  #main .result{
+    flex-direction: column-reverse;
+    
+  }
+  #main .result .bmi{
+    margin: 0;
+
+  }
+  #main .info .height{
+    margin-top: 20px;
+  }
+  }
+
+
 @keyframes rotation {
   0% {
     background: linear-gradient(0deg, #E3EEFF, #F3E7E9);
