@@ -68,14 +68,19 @@ function calculate() {
       }
       wNum.innerHTML = `${Math.round(weightInput.value / 2.205)} kg`;
       if (calc.innerHTML < 15) {
+        indicator.style.display="none"
         comment.innerHTML = "Severely underweight";
       } else if (calc.innerHTML >= 15 && calc.innerHTML <= 18.5) {
+        indicator.style.display="inline-block"
         comment.innerHTML = "You're Underweight";
       } else if (calc.innerHTML > 18.5 && calc.innerHTML <= 30) {
+        indicator.style.display="inline-block"
         comment.innerHTML = "You're Healthy";
       }else if (calc.innerHTML > 30 && calc.innerHTML <= 40) {
+        indicator.style.display="inline-block"
         comment.innerHTML = "You're Obese";
       }else if (calc.innerHTML > 40) {
+        indicator.style.display="none"
         comment.innerHTML = "Severely obese";
       }
     }
@@ -93,14 +98,19 @@ function calculate() {
       hNum.innerHTML = `${cm} cm`;
       wNum.innerHTML = `${weight} kg`;
       if (result < 15) {
+        indicator.style.display="none"
         comment.innerHTML = "Severely underweight";
       } else if (result >= 15 && result <= 18.5) {
+        indicator.style.display="inline-block"
         comment.innerHTML = "You're Underweight";
       } else if (result > 18.5 && result <= 30) {
+        indicator.style.display="inline-block"
         comment.innerHTML = "You're Healthy";
       }else if (result > 30 && result <= 40) {
+        indicator.style.display="inline-block"
         comment.innerHTML = "You're Obese";
       }else if (result > 40) {
+        indicator.style.display="none"
         comment.innerHTML = "Severely obese";
       }
 

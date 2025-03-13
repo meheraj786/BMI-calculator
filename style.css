@@ -196,6 +196,7 @@ p , label, button{
   position: relative;
 }
 #main .result .bmi .bar .indicator{
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
