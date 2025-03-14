@@ -14,8 +14,9 @@ const indicator = document.querySelector("#main .result .indicator");
 const tips= document.querySelector("#main .tips .tipsText");
 
 let format = true;
+
 usBtn.addEventListener("click", function method() {
-  if ((format = true)) {
+  if (format !== true) {
     usBtn.classList.add("active");
     metricBtn.classList.remove("active");
     format = true;
@@ -23,10 +24,20 @@ usBtn.addEventListener("click", function method() {
     heightInch.style.display = "";
     heightFeet.style.display = "";
     heightCm.style.display = "none";
+    weightInput.value = "";
+    heightFeet.value = "";
+    heightInch.value = "";
+    heightCm.value = "";
+    hNum.innerHTML = "_ _";
+    wNum.innerHTML = "_ _";
+    calc.innerHTML = "_ _";
+    comment.innerHTML = "_ _";
+    tips.innerHTML = "_ _";
   }
 });
+
 metricBtn.addEventListener("click", function method() {
-  if ((format = true)) {
+  if (format === true) {
     metricBtn.classList.add("active");
     usBtn.classList.remove("active");
     format = false;
@@ -34,6 +45,15 @@ metricBtn.addEventListener("click", function method() {
     heightInch.style.display = "none";
     heightFeet.style.display = "none";
     heightCm.style.display = "block";
+    weightInput.value = "";
+    heightFeet.value = "";
+    heightInch.value = "";
+    heightCm.value = "";
+    hNum.innerHTML = "_ _";
+    wNum.innerHTML = "_ _";
+    calc.innerHTML = "_ _";
+    comment.innerHTML = "_ _";
+    tips.innerHTML = "_ _";
   }
 });
 
