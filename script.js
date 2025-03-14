@@ -33,6 +33,7 @@ usBtn.addEventListener("click", function method() {
     calc.innerHTML = "_ _";
     comment.innerHTML = "_ _";
     tips.innerHTML = "_ _";
+    comment.style.backgroundColor="#D6FFDD"
     indicator.style.display="none"
   }
 });
@@ -55,6 +56,7 @@ metricBtn.addEventListener("click", function method() {
     calc.innerHTML = "_ _";
     comment.innerHTML = "_ _";
     tips.innerHTML = "_ _";
+    comment.style.backgroundColor="#D6FFDD"
     indicator.style.display="none"
   }
 });
