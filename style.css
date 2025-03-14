@@ -236,6 +236,23 @@ p , label, button{
   margin: 10px 0;
   font-size: 18px;
 }
+.copyright p{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.548);;
+}
+.copyright .icons {
+  text-align: center;
+  margin-top: 10px;
+}
+.copyright .icons a{
+  color: rgba(255, 255, 255, 0.548);
+  margin:  5px;
+}
+.copyright .icons a:hover{
+  color: white;
+}
 
 
 @media(max-width: 600px){
