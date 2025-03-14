@@ -33,6 +33,7 @@ usBtn.addEventListener("click", function method() {
     calc.innerHTML = "_ _";
     comment.innerHTML = "_ _";
     tips.innerHTML = "_ _";
+    indicator.style.display="none"
   }
 });
 
@@ -54,6 +55,7 @@ metricBtn.addEventListener("click", function method() {
     calc.innerHTML = "_ _";
     comment.innerHTML = "_ _";
     tips.innerHTML = "_ _";
+    indicator.style.display="none"
   }
 });
 
@@ -105,6 +107,7 @@ function calculate() {
     "</ul>";
         indicator.style.display = "inline-block";
         indicator.style.left = "0";
+        indicator.style.width = "27%";
         comment.innerHTML = "You're Underweight";
         comment.style.backgroundColor = "#96DEE4";
       } else if (calc.innerHTML > 18.5 && calc.innerHTML <= 30) {
@@ -125,7 +128,8 @@ function calculate() {
         "<li><strong>Tip:</strong> Keep a food diary to monitor eating habits.</li>" +
     "</ul>";
         indicator.style.display = "inline-block";
-
+        indicator.style.left = "73%";
+        indicator.style.width = "27%";
         comment.innerHTML = "You're Obese";
         comment.style.backgroundColor = "#E5A789";
       } else if (calc.innerHTML > 40) {
@@ -169,6 +173,7 @@ function calculate() {
     "</ul>";
         indicator.style.display = "inline-block";
         indicator.style.left = "0";
+        indicator.style.width = "27%";
         comment.innerHTML = "You're Underweight";
         comment.style.backgroundColor = "#96DEE4";
       } else if (result > 18.5 && result <= 30) {
@@ -189,7 +194,8 @@ function calculate() {
         "<li><strong>Tip:</strong> Keep a food diary to monitor eating habits.</li>" +
     "</ul>";
         indicator.style.display = "inline-block";
-        indicator.style.left = "50%";
+        indicator.style.left = "73%";
+        indicator.style.width = "27%";
         comment.innerHTML = "You're Obese";
         comment.style.backgroundColor = "#E5A789";
       } else if (result > 40) {
