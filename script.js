@@ -95,6 +95,7 @@ function calculate() {
     "</ul>";
         indicator.style.display = "inline-block";
         indicator.style.left = "25%";
+        indicator.style.width = "50%";
         comment.innerHTML = "You're Healthy";
         comment.style.backgroundColor = "#A4DEBD";
       } else if (calc.innerHTML > 30 && calc.innerHTML <= 40) {
@@ -158,6 +159,7 @@ function calculate() {
     "</ul>";
         indicator.style.display = "inline-block";
         indicator.style.left = "25%";
+        indicator.style.width = "50%";
         comment.innerHTML = "You're Healthy";
         comment.style.backgroundColor = "#A4DEBD";
       } else if (result > 30 && result <= 40) {
